@@ -1,0 +1,29 @@
+/* IMÁGENES SCENARIOS SIMULACIÓN */
+
+.equipo_trabajo {
+    display: flex;
+    /*align-items: center;
+    /*justify-content: space-between;*/
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+.equipo_trabajo img {
+    /*max-width: 33%;*/
+    /*margin: 0 1px;*/
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 5%;
+    /*transition: transform 0.5s ease-in-out;*/
+    transition: 0.5s ease
+}
+.equipo_trabajo img:hover {
+    cursor: crosshair;
+    width: 70%;
+    opacity: 1;
+    filter: contrast(120%);
+    /*transform: scale(1.1);*/
+}
