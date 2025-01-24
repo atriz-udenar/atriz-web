@@ -77,6 +77,19 @@
                 <img src="Multimedia/IMG_1810.JPEG" alt="equipoTrabajo1">
                 <img src="Multimedia/IMG_1782.JPEG" alt="equipoTrabajo3">
             </div>
+
+            <!-- Sobre robótica de enjambres -->
+            <h2>Robótica de Enjambres</h2>
+            <p>
+                La <a href="http://www.scholarpedia.org/article/Swarm_robotics">robótica de enjambres</a> es la disciplina que estudia de cómo diseñar grandes 
+                grupos de robots que operan de forma colectiva para alcanzar un objetivo en común, y sin la intervención de ninguna infraestructura externa ni ninguna forma de control centralizado.
+                Estos grupos de robots se denominan enjambres de robots, y se caracterizan por presentar comportamientos colectivos similares a los observados en los animales sociales.
+                Del mismo modo que los biólogos estudian los enjambres biológicos, los diseñadores de robótica de enjambres se centran sobre todo en estudiar los comportamientos que 
+                pueden mostrar los enjambres de robots.
+            </p>
+            <p>
+
+            </p>
         </section>
 
         <!-- Results Section -->
@@ -89,13 +102,41 @@
         <section id="resources" class="my-5">
             <h2>Recursos</h2>
             <p>Accede a nuestros contenidos educativos, enlaces útiles y otros materiales relacionados.(En progeso)</p>
-            <a href="https://github.com/atriz-udenar">GitHub ATRIZ</a>
+            <!-- Material educativo -->
+            <h4>Guías de laboratorio</h4>
+            <button id="toggle-roberta" class="btn btn-primary my-3">OpenLab Roberta</button>
+            <ul id="guiasRoberta-list" style="display: none;">
+                <li><a href="archivos//Lab-Roberta/Guías_ATRIZ_LAB_ROBERTA_1.pdf" target="_blank">Guía N°1 ATRIZ Open Lab Roberta</a></li>
+                <li><a href="archivos/Lab-Roberta/Guías_ATRIZ_LAB_ROBERTA_2.pdf" target="_blank">Guía N°2 ATRIZ Open Lab Roberta</a></li>
+                <li><a href="archivos//Lab-Roberta/Guías_ATRIZ_LAB_ROBERTA_3.pdf" target="_blank">Guía N°3 ATRIZ Open Lab Roberta</a></li>
+                <li><a href="archivos/Lab-Roberta/Guías_ATRIZ_LAB_ROBERTA_4.pdf" target="_blank">Guía N°4 ATRIZ Open Lab Roberta</a></li>
+            </ul>
+
+            <button id="toggle-sphero" class="btn btn-primary my-3">SpheroRVR</button>
+            <ul id="guiasSphero-list" style="display: none;">
+                <li><a href="archivos/Lab-Sphero/Guía de Laboratorio 1.pdf" target="_blank">Guía N°1 ATRIZ SpheroRVR</a></li>
+                <li><a href="archivos/Lab-Sphero/Guía de Laboratorio 2.pdf" target="_blank">Guía N°2 ATRIZ SpheroRVR</a></li>
+                <li><a href="archivos/Lab-Sphero/Guía de Laboratorio 3.pdf" target="_blank">Guía N°3 ATRIZ SpheroRVR</a></li>
+                <!-- <li><a href="archivos/Guías_ATRIZ_LAB_ROBERTA_4.pdf" target="_blank">Guía N°4 ATRIZ SpheroRVR</a></li> -->
+            </ul>
+            
+            <!-- Repositorios -->
+            <h4>Repositorios GitHub</h4>
+            <li>
+                Prácticas iniciales en OpenLab Roberta: <a href="https://github.com/atriz-udenar/OpenRoberta-Practicas">Prácticas ATRIZ</a>
+            </li>
+            <li>
+                Prácticas SpheroRVR: <a href="https://github.com/atriz-udenar/Practicas__SpheroRVR">Prácticas SpheroRVR</a>
+            </li>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="my-5">
             <h2>Contacto</h2>
-            <p>Para más información, contáctanos a través del correo: <a href="mailto:atriz@udenar.edu.co">atriz@udenar.edu.co</a></p>
+            <p>Para más información, contáctanos:</p>
+            <li> <a href="david.garzonramos@bristol.ac.uk" >David Garzón Ramos</a></li>
+            <li><a href="wilachic@udenar.edu.co" >Wilson Achicanoy</a></li>
+            <li><a href="gabrielpachajoa@udenar.edu.co" >Gabriel Madroñero</a></li>
         </section>
     </div>
 
@@ -106,4 +147,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="javaScrib/dinamica.js"></script>
 </html>
